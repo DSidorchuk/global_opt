@@ -1,0 +1,82 @@
+.promo {
+    background: url('../img/promo/promobg.jpg') center (100%/cover) no-repeat;
+    padding-bottom: 82px;
+    &__descr {
+        margin-top: 9px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        opacity: 0.7;
+    }
+    &__title {
+        margin-top: 26px;
+        color: $main-color;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        margin-top: 9px;
+        color: #ffffff;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 42px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__divider {
+        margin: 0 auto;
+        margin-top: 38px;
+        position: relative;
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        background-color: #ffffff;
+        opacity: 0.9;
+        &:before, &:after  {
+            content: '';
+            position: absolute;
+            right: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 390px;
+            height: 1px;
+            background-color: #ffffff;
+            opacity: 0.7;
+        }
+        &:after {
+            right: unset;
+            left: 25px;
+        }
+    }
+    &__wrapper {
+        margin-top: 27px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    &__item {
+        &-icon {
+            min-height: 63px;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &-descr {
+            margin-top: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+}
