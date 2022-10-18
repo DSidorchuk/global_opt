@@ -11,8 +11,16 @@
     margin: 0 auto;
 }
 
+.divider {
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+}
+
 @import 'blocks/titles';
 @import 'blocks/buttons';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/benefit';
+@import 'blocks/work';
