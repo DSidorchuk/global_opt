@@ -1,0 +1,36 @@
+.benefit {
+    padding: 57px 0 51px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 31px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 62px;
+        row-gap: 37px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        column-gap: 13px;
+        &-icon {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &-text {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: left;
+            span {
+                margin-bottom: 5px;
+                display: block;
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+}
