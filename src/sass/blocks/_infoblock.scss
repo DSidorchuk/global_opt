@@ -16,7 +16,9 @@
         text-transform: unset;
     }
     &__text {
+        margin: 0 auto;
         margin-top: 22px;
+        width: 984px;
         color: #ffffff;
         font-size: 19px;
         font-weight: 300;
@@ -25,5 +27,8 @@
     }
     &_agent {
         background: url('../img/agent/img.jpg') center (100%/cover) no-repeat;
+    }
+    &_manager {
+        background: url('../img/manager/img.jpg') center (100%/cover) no-repeat;
     }
 }
