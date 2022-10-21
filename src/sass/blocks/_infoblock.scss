@@ -1,0 +1,29 @@
+.infoblock {
+    padding: 58px 0 75px 0;
+    &__icon {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+    }
+    &__title {
+        margin-top: 20px;
+        color: #ffffff;
+        text-transform: unset;
+    }
+    &__text {
+        margin-top: 22px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+    }
+    &_agent {
+        background: url('../img/agent/img.jpg') center (100%/cover) no-repeat;
+    }
+}
