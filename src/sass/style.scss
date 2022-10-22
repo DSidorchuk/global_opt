@@ -19,6 +19,7 @@
     background-color: $main-color;
 }
 
+@import 'blocks/ordercall';
 @import 'blocks/titles';
 @import 'blocks/buttons';
 @import 'blocks/header';
@@ -31,3 +32,4 @@
 @import 'blocks/scheme';
 @import 'blocks/feedback';
 @import 'blocks/contact';
+@import 'blocks/footer';

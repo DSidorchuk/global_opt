@@ -1,0 +1,18 @@
+.ordercall {
+    display: grid;
+    grid-template-columns: 179px 160px;
+    column-gap: 19px;
+    align-items: center;
+    &__phone {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: right;
+        span {
+            display: block;
+            font-size: 19px;
+            font-weight: 700;
+        }
+    }
+}
