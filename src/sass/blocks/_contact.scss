@@ -1,0 +1,74 @@
+.contact {
+    background: url('../img/contact/img_bg.jpg') center (100%/cover) no-repeat;
+    &__wrapper {
+        margin: 0 auto;
+        padding: 62px 0 79px 0;
+        width: 900px;
+    }
+    &__head {
+        padding: 19px 0;
+        background-color: #25333c;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        span {
+            display: block;
+            font-size: 19px;
+            font-weight: 700;
+        }
+    }
+    &__form {
+        padding-bottom: 25px;
+        position: relative;
+    }
+    &__inputs {
+        padding-top: 18px;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3, 268px);
+        grid-template-rows: 45px 71px;
+        gap: 8px 6px;
+        justify-content: center;
+        z-index: 2;
+    }
+    &__input {
+        opacity: 10;
+    }
+    &__message {
+        grid-column: 1 / 4;
+        background-color: #fff;
+        border-radius: 7px;
+        textarea {
+            padding-left: 27px;
+            padding-top: 10px;
+            height: 100%;
+            width: 100%;
+            resize: none;
+            border-radius: 7px;
+            color: #101010;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+    &__btn {
+        margin: 0 auto;
+        margin-top: 17px;
+        position: relative;
+        display: block;
+        z-index: 2;
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        background-color: #ffffff;
+        opacity: 0.7;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}

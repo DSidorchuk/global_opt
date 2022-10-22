@@ -1,4 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/tiny-slider';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 @import 'base/variables';
 
@@ -25,5 +26,8 @@
 @import 'blocks/benefit';
 @import 'blocks/work';
 @import 'blocks/infoblock';
+@import 'blocks/form-input';
 @import 'blocks/price';
 @import 'blocks/scheme';
+@import 'blocks/feedback';
+@import 'blocks/contact';
