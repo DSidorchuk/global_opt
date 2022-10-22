@@ -1,5 +1,6 @@
 .header {
     padding-top: 23px;
+    position: relative;
     display: grid;
     grid-template-columns: 96px 605px 360px;
     grid-template-rows: 100px;
@@ -42,5 +43,26 @@
                 }
             }
         }
+        &_mobile {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 10px;
+            top: -400px;
+            list-style-type: none;
+            text-align: right;
+            transition: all 0.7s;
+            a {
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 40px;
+                text-decoration: none;
+            }
+        }
     }
+}
+
+.active {
+    top: 80px;
 }
