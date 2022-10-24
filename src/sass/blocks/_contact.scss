@@ -34,9 +34,6 @@
         justify-content: center;
         z-index: 2;
     }
-    &__input {
-        opacity: 10;
-    }
     &__message {
         grid-column: 1 / 4;
         background-color: #fff;
@@ -47,6 +44,7 @@
             height: 100%;
             width: 100%;
             resize: none;
+            border: none;
             border-radius: 7px;
             color: #101010;
             font-size: 13px;
